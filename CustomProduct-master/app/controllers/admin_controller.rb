@@ -1,3 +1,5 @@
+//= admin controller parsed from shopifyApp::AuthenticatedController .
+
 class AdminController < ShopifyApp::AuthenticatedController
   include ShopifyApp::LoginProtection
   
